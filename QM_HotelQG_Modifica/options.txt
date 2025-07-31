@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Vugen\QM_HotelQG_Modifica
+-IC:\Program Files (x86)\OpenText\Virtual User Generator\include
+-ec:\vugen\qm_hotelqg_modifica\\logfile.log
+c:\vugen\qm_hotelqg_modifica\\combined_QM_HotelQG_Modifica.c
+c:\vugen\qm_hotelqg_modifica\\pre_cci.c
