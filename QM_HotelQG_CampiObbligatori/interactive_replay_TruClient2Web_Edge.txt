@@ -1,0 +1,34 @@
+Vuser Script started at : 2025-07-03 11:14:41
+TruClient Replay (build 0174) for LoadRunner Professional 2025.1.0, build 0247. OS: Windows 10, Browser: Edge 138.0.3351.65, Path: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe, initialized on 2025/07/03 at 11:14:41 (1751534081,541s)
+Selected Run-Time Settings:
+    Simulate a new user on each iteration...............: 1
+    Using system proxy settings
+    Run-Time Settings file..............................: "C:\Vugen\QM_HotelQG_CampiObbligatori\\default.cfg"
+    Vuser directory.....................................: "C:\Vugen\QM_HotelQG_CampiObbligatori"
+    Vuser output directory..............................: "C:\Vugen\QM_HotelQG_CampiObbligatori"
+End of selected Run-Time Settings
+t=00000078ms: Action Init started.	[MsgId: MMSG-226981]
+t=00000079ms: Action Init ended.	[MsgId: MMSG-226981]
+Running Vuser...
+Starting iteration 1.
+t=00000087ms: Action Login started.	[MsgId: MMSG-226981]
+t=00000090ms: Step 1: Navigate to https://aladyn2.torino.q...enge_method=S256 started.	[MsgId: MMSG-226981]
+t=00002492ms: Step 1: Navigate to https://aladyn2.torino.q...enge_method=S256 successfully completed with End Event "Document Loaded".	[MsgId: MMSG-226981]
+t=00003304ms: Step 2: Entra started.	[MsgId: MMSG-226981]
+t=00003305ms: Step 2.1: Click on Login TextBox started.	[MsgId: MMSG-226981]
+t=00004172ms: Step 2.1: Click on Login TextBox successfully completed with End Event "Action Completed".	[MsgId: MMSG-226981]
+t=00004983ms: Step 2.2: Type partec.latitud in Login TextBox started.	[MsgId: MMSG-226981]
+t=00010710ms: Step 2.2: Type partec.latitud in Login TextBox successfully completed with End Event "Action Completed".	[MsgId: MMSG-226981]
+t=00011523ms: Step 2.3: Type ****** in Password PasswordBox started.	[MsgId: MMSG-226981]
+t=00015039ms: Step 2.3: Type ****** in Password PasswordBox successfully completed with End Event "Action Completed".	[MsgId: MMSG-226981]
+t=00015855ms: Step 2.4: Click on Entra Button started.	[MsgId: MMSG-226981]
+t=00017374ms: Step 2.4: Click on Entra Button successfully completed with End Event "Document Loaded".	[MsgId: MMSG-226981]
+t=00018183ms: Step 2: Entra successfully completed with End Event "Action Completed".	[MsgId: MMSG-226981]
+t=00018185ms: Step 4: Wait until Latitud Patagonia Image exists started.	[MsgId: MMSG-226981]
+t=00018699ms: Step 4: Wait until Latitud Patagonia Image exists successfully completed with End Event "Action Completed".	[MsgId: MMSG-226981]
+t=00018700ms: Step 6: Click on Button(5) Button started.	[MsgId: MMSG-226981]
+t=00019118ms: Step 6: Click on Button(5) Button successfully completed with End Event "Action Completed".	[MsgId: MMSG-226981]
+t=00019927ms: Step 8: Verify if PL Element's VisibleText Contain PL started.	[MsgId: MMSG-226981]
+Action was aborted.
+Ending Vuser...
+Vuser terminated.
