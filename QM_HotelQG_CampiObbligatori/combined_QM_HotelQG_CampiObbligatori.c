@@ -1,8 +1,0 @@
-#include "lrun.h"
-#include "SharedParameter.h"
-#include "globals.h"
-#include "C-functions.c"
-#include "Login.c"
-#include "AggiungiHotel.c"
-#include "Anagrafica_CampiObblogatori.c"
-#include "Anagrafica_OK.c"
