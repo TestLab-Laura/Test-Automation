@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Vugen\QM_Servizi_Modifica
+-IC:\Program Files (x86)\OpenText\Virtual User Generator\include
+-ec:\vugen\qm_servizi_modifica\\logfile.log
+c:\vugen\qm_servizi_modifica\\combined_QM_Servizi_Modifica.c
+c:\vugen\qm_servizi_modifica\\pre_cci.c
