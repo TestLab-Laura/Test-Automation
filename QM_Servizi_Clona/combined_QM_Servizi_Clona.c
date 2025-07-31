@@ -1,0 +1,8 @@
+#include "lrun.h"
+#include "SharedParameter.h"
+#include "globals.h"
+#include "C-functions.c"
+#include "EliminaClona.c"
+#include "RicercaServizio.c"
+#include "ClonaServizio.c"
+#include "RicercaServizioClonato.c"

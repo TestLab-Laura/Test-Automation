@@ -1,0 +1,48 @@
+Vuser Script started at : 2025-07-01 15:56:37
+TruClient Replay (build 0174) for LoadRunner Professional 2025.1.0, build 0247. OS: Windows 10, Browser: Edge 138.0.3351.55, Path: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe, initialized on 2025/07/01 at 15:56:37 (1751378197,005s)
+Selected Run-Time Settings:
+    Simulate a new user on each iteration...............: 1
+    Using system proxy settings
+    Run-Time Settings file..............................: "C:\Vugen\QM_Servizi_Clona\\default.cfg"
+    Vuser directory.....................................: "C:\Vugen\QM_Servizi_Clona"
+    Vuser output directory..............................: "C:\Vugen\QM_Servizi_Clona"
+End of selected Run-Time Settings
+t=00000086ms: Action Init started.	[MsgId: MMSG-226981]
+t=00000087ms: Action Init ended.	[MsgId: MMSG-226981]
+Running Vuser...
+Starting iteration 1.
+t=00000094ms: Action Login started.	[MsgId: MMSG-226981]
+t=00000097ms: Step 1: Navigate to https://aladyn2.torino.q...enge_method=S256 started.	[MsgId: MMSG-226981]
+t=00000802ms: Step 1: Navigate to https://aladyn2.torino.q...enge_method=S256 successfully completed with End Event "Document Loaded".	[MsgId: MMSG-226981]
+t=00001615ms: Step 2: Entra started.	[MsgId: MMSG-226981]
+t=00001616ms: Step 2.1: Click on Login TextBox started.	[MsgId: MMSG-226981]
+t=00002407ms: Step 2.1: Click on Login TextBox successfully completed with End Event "Action Completed".	[MsgId: MMSG-226981]
+t=00003210ms: Step 2.2: Type partec.latitud in Login TextBox started.	[MsgId: MMSG-226981]
+t=00008874ms: Step 2.2: Type partec.latitud in Login TextBox successfully completed with End Event "Action Completed".	[MsgId: MMSG-226981]
+t=00009681ms: Step 2.3: Type ****** in Password PasswordBox started.	[MsgId: MMSG-226981]
+t=00013121ms: Step 2.3: Type ****** in Password PasswordBox successfully completed with End Event "Action Completed".	[MsgId: MMSG-226981]
+t=00013927ms: Step 2.4: Click on Entra Button started.	[MsgId: MMSG-226981]
+t=00015213ms: Step 2.4: Click on Entra Button successfully completed with End Event "Document Loaded".	[MsgId: MMSG-226981]
+t=00016025ms: Step 2: Entra successfully completed with End Event "Action Completed".	[MsgId: MMSG-226981]
+t=00016029ms: Step 4: Wait until Latitud Patagonia Image exists started.	[MsgId: MMSG-226981]
+t=00016422ms: Step 4: Wait until Latitud Patagonia Image exists successfully completed with End Event "Action Completed".	[MsgId: MMSG-226981]
+t=00016425ms: Step 6: Click on Button(5) Button started.	[MsgId: MMSG-226981]
+t=00016810ms: Step 6: Click on Button(5) Button successfully completed with End Event "Action Completed".	[MsgId: MMSG-226981]
+t=00017622ms: Step 8: Verify if PL Element's VisibleText Contain PL started.	[MsgId: MMSG-226981]
+t=00017927ms: Step 8: Verify if PL Element's VisibleText Contain PL successfully completed with End Event "Action Completed".	[MsgId: MMSG-226981]
+t=00018740ms: Action Login ended.	[MsgId: MMSG-226981]
+t=00018741ms: Action RicercaServizio started.	[MsgId: MMSG-226981]
+t=00018743ms: Step 1: Click on Servizi Link started.	[MsgId: MMSG-226981]
+t=00021915ms: Step 1: Click on Servizi Link successfully completed with End Event "Step Network Completed".	[MsgId: MMSG-226981]
+t=00022730ms: Step 3: Cerca servizi started.	[MsgId: MMSG-226981]
+t=00022731ms: Step 3.1: Click on Codice TextBox started.	[MsgId: MMSG-226981]
+t=00023170ms: Step 3.1: Click on Codice TextBox successfully completed with End Event "Action Completed".	[MsgId: MMSG-226981]
+t=00023973ms: Step 3.2: Type Partec_Inserime in Codice TextBox started.	[MsgId: MMSG-226981]
+t=00029832ms: Step 3.2: Type Partec_Inserime in Codice TextBox successfully completed with End Event "Action Completed".	[MsgId: MMSG-226981]
+t=00030637ms: Step 3.3: Click on Cerca servizi Button started.	[MsgId: MMSG-226981]
+t=00031326ms: Step 3.3: Click on Cerca servizi Button successfully completed with End Event "Step Network Completed".	[MsgId: MMSG-226981]
+Action was aborted.
+Ending Vuser...
+t=00031844ms: Step 3: Cerca servizi was stopped.	[MsgId: MMSG-226981]
+t=00031845ms: Action RicercaServizio ended.	[MsgId: MMSG-226981]
+Vuser terminated.

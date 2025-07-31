@@ -1,0 +1,93 @@
+Warning: Failed to post to 'http://127.0.0.1:8182/shunra/api/emulation/packetCaptureOnly', retcode=7.
+Warning: Failed to start NV emulation. Perhaps the NV server is not working, and therefore a NV report will not be generated.
+Vuser Script started at : 2025-07-01 12:20:16
+TruClient Replay (build 0174) for LoadRunner Professional 2025.1.0, build 0247. OS: Windows 10, Browser: Chrome 138.0.7204.49, Path: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe, initialized on 2025/07/01 at 12:20:10 (1751365210,375s)
+Selected Run-Time Settings:
+    Simulate a new user on each iteration...............: 1
+    Using system proxy settings
+    Run-Time Settings file..............................: "C:\Vugen\QM_Servizi_Clona\\default.cfg"
+    Vuser directory.....................................: "C:\Users\ASSUNT~1.LIS\AppData\Local\Temp\TC2\9784"
+    Vuser output directory..............................: "C:\Users\ASSUNT~1.LIS\AppData\Local\Temp\TC2\9784"
+End of selected Run-Time Settings
+t=00006314ms: Action Init started.	[MsgId: MMSG-226981]
+t=00006316ms: Action Init ended.	[MsgId: MMSG-226981]
+Running Vuser...
+Starting iteration 1.
+t=00006451ms: Action Login started.	[MsgId: MMSG-226981]
+t=00006453ms: Step 1: Navigate to https://aladyn2.torino.q...enge_method=S256 started.	[MsgId: MMSG-226981]
+t=00008901ms: Step 1: Navigate to https://aladyn2.torino.q...enge_method=S256 successfully completed with End Event "Document Loaded".	[MsgId: MMSG-226981]
+t=00009713ms: Step 2: Entra started.	[MsgId: MMSG-226981]
+t=00009714ms: Step 2.1: Click on Login TextBox started.	[MsgId: MMSG-226981]
+t=00009814ms: Step 2.1: Click on Login TextBox successfully completed with End Event "Action Completed".	[MsgId: MMSG-226981]
+t=00010619ms: Step 2.2: Type partec.latitud in Login TextBox started.	[MsgId: MMSG-226981]
+t=00015700ms: Step 2.2: Type partec.latitud in Login TextBox successfully completed with End Event "Action Completed".	[MsgId: MMSG-226981]
+t=00016505ms: Step 2.3: Type ****** in Password PasswordBox started.	[MsgId: MMSG-226981]
+t=00019441ms: Step 2.3: Type ****** in Password PasswordBox successfully completed with End Event "Action Completed".	[MsgId: MMSG-226981]
+t=00020244ms: Step 2.4: Click on Entra Button started.	[MsgId: MMSG-226981]
+t=00020918ms: Step 2.4: Click on Entra Button successfully completed with End Event "Document Loaded".	[MsgId: MMSG-226981]
+t=00021728ms: Step 2: Entra successfully completed with End Event "Action Completed".	[MsgId: MMSG-226981]
+t=00021729ms: Step 4: Wait until Latitud Patagonia Image exists started.	[MsgId: MMSG-226981]
+t=00021785ms: Step 4: Wait until Latitud Patagonia Image exists successfully completed with End Event "Action Completed".	[MsgId: MMSG-226981]
+t=00021785ms: Step 6: Click on Button(5) Button started.	[MsgId: MMSG-226981]
+t=00021816ms: Step 6: Click on Button(5) Button successfully completed with End Event "Action Completed".	[MsgId: MMSG-226981]
+t=00022619ms: Step 8: Verify if PL Element's VisibleText Contain PL started.	[MsgId: MMSG-226981]
+t=00022634ms: Step 8: Verify if PL Element's VisibleText Contain PL successfully completed with End Event "Action Completed".	[MsgId: MMSG-226981]
+t=00023444ms: Action Login ended.	[MsgId: MMSG-226981]
+t=00023445ms: Action RicercaServizio started.	[MsgId: MMSG-226981]
+t=00023446ms: Step 1: Click on Servizi Link started.	[MsgId: MMSG-226981]
+t=00023977ms: Step 1: Click on Servizi Link successfully completed with End Event "Step Network Completed".	[MsgId: MMSG-226981]
+t=00024783ms: Step 3: Cerca servizi started.	[MsgId: MMSG-226981]
+t=00024783ms: Step 3.1: Click on Codice TextBox started.	[MsgId: MMSG-226981]
+t=00024814ms: Step 3.1: Click on Codice TextBox successfully completed with End Event "Action Completed".	[MsgId: MMSG-226981]
+t=00025618ms: Step 3.2: Type Partec_Inserime in Codice TextBox started.	[MsgId: MMSG-226981]
+t=00031099ms: Step 3.2: Type Partec_Inserime in Codice TextBox successfully completed with End Event "Action Completed".	[MsgId: MMSG-226981]
+t=00031901ms: Step 3.3: Click on Cerca servizi Button started.	[MsgId: MMSG-226981]
+t=00032265ms: Step 3.3: Click on Cerca servizi Button successfully completed with End Event "Step Network Completed".	[MsgId: MMSG-226981]
+t=00033070ms: Step 3: Cerca servizi successfully completed with End Event "Action Completed".	[MsgId: MMSG-226981]
+t=00033071ms: Action RicercaServizio ended.	[MsgId: MMSG-226981]
+t=00033072ms: Action ClonaServizio started.	[MsgId: MMSG-226981]
+t=00033073ms: Step 2: Click on Button(Clona) Button started.	[MsgId: MMSG-226981]
+t=00035099ms: Step 2: Click on Button(Clona) Button successfully completed with End Event "Action Completed".	[MsgId: MMSG-226981]
+t=00035902ms: Step 4: Click on Codice * TextBox started.	[MsgId: MMSG-226981]
+t=00037928ms: Step 4: Click on Codice * TextBox successfully completed with End Event "Action Completed".	[MsgId: MMSG-226981]
+t=00038732ms: Step 5: Type Clona_Partec_In in Codice * TextBox started.	[MsgId: MMSG-226981]
+t=00044213ms: Step 5: Type Clona_Partec_In in Codice * TextBox successfully completed with End Event "Action Completed".	[MsgId: MMSG-226981]
+t=00045040ms: Step 7: Click on Clona Button started.	[MsgId: MMSG-226981]
+t=00065064ms: Warning -226104: Unable to locate test object with current ID method, switch to ID method "Descriptor".	[MsgId: MWAR-226104]
+t=00068414ms: Step 7: Click on Clona Button successfully completed with End Event "Step Network Completed".	[MsgId: MMSG-226981]
+t=00069241ms: Action ClonaServizio ended.	[MsgId: MMSG-226981]
+t=00069242ms: Action RicercaServizioClonato started.	[MsgId: MMSG-226981]
+t=00069243ms: Step 1: Navigate to https://webapp-quality-m...roducts/services started.	[MsgId: MMSG-226981]
+t=00069461ms: Step 1: Navigate to https://webapp-quality-m...roducts/services successfully completed with End Event "Document Loaded".	[MsgId: MMSG-226981]
+t=00070274ms: Step 3: Click on Codice TextBox started.	[MsgId: MMSG-226981]
+t=00072336ms: Step 3: Click on Codice TextBox successfully completed with End Event "Action Completed".	[MsgId: MMSG-226981]
+t=00073142ms: Step 4: Type Clona_Partec_In in Codice TextBox started.	[MsgId: MMSG-226981]
+t=00078598ms: Step 4: Type Clona_Partec_In in Codice TextBox successfully completed with End Event "Action Completed".	[MsgId: MMSG-226981]
+t=00079401ms: Step 6: Click on Cerca servizi Button started.	[MsgId: MMSG-226981]
+t=00082750ms: Step 6: Click on Cerca servizi Button successfully completed with End Event "Step Network Completed".	[MsgId: MMSG-226981]
+t=00083555ms: Step 7: GroupStep.Mouseover started.	[MsgId: MMSG-226981]
+t=00083555ms: Step 7.3: Move mouse over Clona Partec In Partec... Element started.	[MsgId: MMSG-226981]
+t=00085586ms: Step 7.3: Move mouse over Clona Partec In Partec... Element successfully completed with End Event "Action Completed".	[MsgId: MMSG-226981]
+t=00086399ms: Step 7: GroupStep.Mouseover successfully completed with End Event "Action Completed".	[MsgId: MMSG-226981]
+t=00086399ms: Step 8: Click on Clona Partec In Link started.	[MsgId: MMSG-226981]
+t=00089868ms: Step 8: Click on Clona Partec In Link successfully completed with End Event "Step Network Completed".	[MsgId: MMSG-226981]
+t=00090677ms: Step 10: Verify if Argentina e Cile Focusable's VisibleText Contain Argentina e Cile started.	[MsgId: MMSG-226981]
+t=00090691ms: Step 10: Verify if Argentina e Cile Focusable's VisibleText Contain Argentina e Cile successfully completed with End Event "Action Completed".	[MsgId: MMSG-226981]
+t=00091493ms: Step 11: Verify if Codice * TextBox's VisibleText Contain Clona_Partec_In started.	[MsgId: MMSG-226981]
+t=00091508ms: Step 11: Verify if Codice * TextBox's VisibleText Contain Clona_Partec_In successfully completed with End Event "Action Completed".	[MsgId: MMSG-226981]
+t=00092315ms: Step 12: Verify if Individuale Focusable's VisibleText Contain Individuale started.	[MsgId: MMSG-226981]
+t=00092328ms: Step 12: Verify if Individuale Focusable's VisibleText Contain Individuale successfully completed with End Event "Action Completed".	[MsgId: MMSG-226981]
+t=00093134ms: Step 13: Verify if Nome * TextBox's VisibleText Contain Partec_Inserime started.	[MsgId: MMSG-226981]
+t=00093149ms: Step 13: Verify if Nome * TextBox's VisibleText Contain Partec_Inserime successfully completed with End Event "Action Completed".	[MsgId: MMSG-226981]
+t=00093961ms: Step 14: Verify if Aladyn Quality Group Button's VisibleText Contain Aladyn Quality Group started.	[MsgId: MMSG-226981]
+t=00093974ms: Step 14: Verify if Aladyn Quality Group Button's VisibleText Contain Aladyn Quality Group successfully completed with End Event "Action Completed".	[MsgId: MMSG-226981]
+t=00094791ms: Step 15: Verify if Trasferimento Focusable's VisibleText Contain Trasferimento started.	[MsgId: MMSG-226981]
+t=00114814ms: Warning -226104: Unable to locate test object with current ID method, switch to ID method "CssSelector".	[MsgId: MWAR-226104]
+t=00114930ms: Error -226303: Step 15: Verify if Trasferimento Focusable's VisibleText Contain Trasferimento failed. Verification failed.     Snapshot Info [MSH 1 0]	[MsgId: MERR-226303]
+t=00115733ms: Action RicercaServizioClonato ended.	[MsgId: MMSG-226981]
+Ending iteration 1.
+Action was aborted.
+Ending Vuser...
+t=00115741ms: Action End started.	[MsgId: MMSG-226981]
+t=00115742ms: Action End ended.	[MsgId: MMSG-226981]
+Vuser terminated.
