@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Vugen\QM_HotelQG_CampiObbligatori
+-IC:\Program Files (x86)\OpenText\Virtual User Generator\include
+-ec:\vugen\qm_hotelqg_campiobbligatori\\logfile.log
+c:\vugen\qm_hotelqg_campiobbligatori\\combined_QM_HotelQG_CampiObbligatori.c
+c:\vugen\qm_hotelqg_campiobbligatori\\pre_cci.c
