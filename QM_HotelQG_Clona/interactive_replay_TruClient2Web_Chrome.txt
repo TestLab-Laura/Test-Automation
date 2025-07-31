@@ -1,0 +1,28 @@
+Vuser Script started at : 2025-06-23 16:49:25
+TruClient Replay (build 0174) for LoadRunner Professional 2025.1.0, build 0247. OS: Windows 10, Browser: Chrome 137.0.7151.70, Path: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe, initialized on 2025/06/23 at 16:49:25 (1750690165,509s)
+Selected Run-Time Settings:
+    Simulate a new user on each iteration...............: 1
+    Using system proxy settings
+    Run-Time Settings file..............................: "C:\Vugen\QM_HotelQG_Clona\\default.cfg"
+    Vuser directory.....................................: "C:\Vugen\QM_HotelQG_Clona"
+    Vuser output directory..............................: "C:\Vugen\QM_HotelQG_Clona"
+End of selected Run-Time Settings
+t=00000081ms: Action Init started.	[MsgId: MMSG-226981]
+t=00000081ms: Action Init ended.	[MsgId: MMSG-226981]
+Running Vuser...
+Starting iteration 1.
+t=00000085ms: Action Login started.	[MsgId: MMSG-226981]
+t=00000085ms: Action Login ended.	[MsgId: MMSG-226981]
+t=00000086ms: Action RicercaHotel started.	[MsgId: MMSG-226981]
+t=00000086ms: Action RicercaHotel ended.	[MsgId: MMSG-226981]
+t=00000087ms: Action ClonaHotel started.	[MsgId: MMSG-226981]
+t=00000088ms: Action ClonaHotel ended.	[MsgId: MMSG-226981]
+t=00000088ms: Action RicercaHotelClonato started.	[MsgId: MMSG-226981]
+t=00000089ms: Step 46: Click on Promozioni Link started.	[MsgId: MMSG-226981]
+t=00000795ms: Step 46: Click on Promozioni Link successfully completed with End Event "Step Network Completed".	[MsgId: MMSG-226981]
+t=00001599ms: Step 47: Verify if Partec Promo Link's VisibleText Contain Partec_Promo started.	[MsgId: MMSG-226981]
+Action was aborted.
+Ending Vuser...
+t=00010975ms: Step 47: Verify if Partec Promo Link's VisibleText Contain Partec_Promo was stopped. 	[MsgId: MMSG-226981]
+t=00010976ms: Action RicercaHotelClonato ended.	[MsgId: MMSG-226981]
+Vuser terminated.

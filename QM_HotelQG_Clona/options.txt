@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Vugen\TA\Test-Automation\QM_HotelQG_Clona
+-IC:\Program Files (x86)\OpenText\Virtual User Generator\include
+-ec:\vugen\ta\test-automation\qm_hotelqg_clona\\logfile.log
+c:\vugen\ta\test-automation\qm_hotelqg_clona\\combined_QM_HotelQG_Clona.c
+c:\vugen\ta\test-automation\qm_hotelqg_clona\\pre_cci.c
