@@ -1,0 +1,89 @@
+Warning: Failed to post to 'http://127.0.0.1:8182/shunra/api/emulation/packetCaptureOnly', retcode=7.
+Warning: Failed to start NV emulation. Perhaps the NV server is not working, and therefore a NV report will not be generated.
+Vuser Script started at : 2025-07-03 16:05:44
+TruClient Replay (build 0174) for LoadRunner Professional 2025.1.0, build 0247. OS: Windows 10, Browser: Edge 138.0.3351.65, Path: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe, initialized on 2025/07/03 at 16:05:38 (1751551538,699s)
+Selected Run-Time Settings:
+    Simulate a new user on each iteration...............: 1
+    Using system proxy settings
+    Run-Time Settings file..............................: "C:\Vugen\QM_Servizi_Inserimento\\default.cfg"
+    Vuser directory.....................................: "C:\Users\ASSUNT~1.LIS\AppData\Local\Temp\TC2\8676"
+    Vuser output directory..............................: "C:\Users\ASSUNT~1.LIS\AppData\Local\Temp\TC2\8676"
+End of selected Run-Time Settings
+t=00006306ms: Action Init started.	[MsgId: MMSG-226981]
+t=00006308ms: Action Init ended.	[MsgId: MMSG-226981]
+Running Vuser...
+Starting iteration 1.
+t=00006515ms: Action Login started.	[MsgId: MMSG-226981]
+t=00006518ms: Step 1: Navigate to https://aladyn2.torino.q...enge_method=S256 started.	[MsgId: MMSG-226981]
+t=00006922ms: Step 1: Navigate to https://aladyn2.torino.q...enge_method=S256 successfully completed with End Event "Document Loaded".	[MsgId: MMSG-226981]
+t=00007735ms: Step 2: Entra started.	[MsgId: MMSG-226981]
+t=00007736ms: Step 2.1: Click on Login TextBox started.	[MsgId: MMSG-226981]
+t=00007833ms: Step 2.1: Click on Login TextBox successfully completed with End Event "Action Completed".	[MsgId: MMSG-226981]
+t=00008641ms: Step 2.2: Type partec.latitud in Login TextBox started.	[MsgId: MMSG-226981]
+t=00013743ms: Step 2.2: Type partec.latitud in Login TextBox successfully completed with End Event "Action Completed".	[MsgId: MMSG-226981]
+t=00014569ms: Step 2.3: Type ****** in Password PasswordBox started.	[MsgId: MMSG-226981]
+t=00017476ms: Step 2.3: Type ****** in Password PasswordBox successfully completed with End Event "Action Completed".	[MsgId: MMSG-226981]
+t=00018280ms: Step 2.4: Click on Entra Button started.	[MsgId: MMSG-226981]
+t=00018935ms: Step 2.4: Click on Entra Button successfully completed with End Event "Document Loaded".	[MsgId: MMSG-226981]
+t=00019741ms: Step 2: Entra successfully completed with End Event "Action Completed".	[MsgId: MMSG-226981]
+t=00019742ms: Step 4: Wait until Latitud Patagonia Image exists started.	[MsgId: MMSG-226981]
+t=00019805ms: Step 4: Wait until Latitud Patagonia Image exists successfully completed with End Event "Action Completed".	[MsgId: MMSG-226981]
+t=00019806ms: Step 6: Click on Button(5) Button started.	[MsgId: MMSG-226981]
+t=00019846ms: Step 6: Click on Button(5) Button successfully completed with End Event "Action Completed".	[MsgId: MMSG-226981]
+t=00020653ms: Step 8: Verify if PL Element's VisibleText Contain PL started.	[MsgId: MMSG-226981]
+t=00020669ms: Step 8: Verify if PL Element's VisibleText Contain PL successfully completed with End Event "Action Completed".	[MsgId: MMSG-226981]
+t=00021473ms: Action Login ended.	[MsgId: MMSG-226981]
+t=00021473ms: Action AggiungiServizio started.	[MsgId: MMSG-226981]
+t=00021474ms: Step 1: Click on Servizi Link started.	[MsgId: MMSG-226981]
+t=00022011ms: Step 1: Click on Servizi Link successfully completed with End Event "Step Network Completed".	[MsgId: MMSG-226981]
+t=00022813ms: Step 3: Click on Aggiungi servizio Link started.	[MsgId: MMSG-226981]
+t=00023130ms: Step 3: Click on Aggiungi servizio Link successfully completed with End Event "Step Network Completed".	[MsgId: MMSG-226981]
+t=00023933ms: Action AggiungiServizio ended.	[MsgId: MMSG-226981]
+t=00023934ms: Action Anagrafica started.	[MsgId: MMSG-226981]
+t=00023935ms: Step 30: Click on Catalogo Focusable started.	[MsgId: MMSG-226981]
+t=00023962ms: Step 30: Click on Catalogo Focusable successfully completed with End Event "Action Completed".	[MsgId: MMSG-226981]
+t=00024768ms: Step 31: Select Argentina e Cile from Catalogo * ListBox started.	[MsgId: MMSG-226981]
+t=00024839ms: Step 31: Select Argentina e Cile from Catalogo * ListBox successfully completed with End Event "Action Completed".	[MsgId: MMSG-226981]
+t=00025655ms: Step 33: Click on Codice * TextBox started.	[MsgId: MMSG-226981]
+t=00025684ms: Step 33: Click on Codice * TextBox successfully completed with End Event "Action Completed".	[MsgId: MMSG-226981]
+t=00026491ms: Step 34: Type Partec_Inserime in Codice * TextBox started.	[MsgId: MMSG-226981]
+t=00032003ms: Step 34: Type Partec_Inserime in Codice * TextBox successfully completed with End Event "Action Completed".	[MsgId: MMSG-226981]
+t=00032812ms: Step 35: Click on Focusable(4) Focusable started.	[MsgId: MMSG-226981]
+t=00032842ms: Step 35: Click on Focusable(4) Focusable successfully completed with End Event "Action Completed".	[MsgId: MMSG-226981]
+t=00033649ms: Step 37: Click on Individuale ListItem started.	[MsgId: MMSG-226981]
+t=00033677ms: Step 37: Click on Individuale ListItem successfully completed with End Event "Action Completed".	[MsgId: MMSG-226981]
+t=00034483ms: Step 39: Click on Nome * TextBox started.	[MsgId: MMSG-226981]
+t=00034511ms: Step 39: Click on Nome * TextBox successfully completed with End Event "Action Completed".	[MsgId: MMSG-226981]
+t=00035317ms: Step 40: Type Partec_Inserime in Nome * TextBox started.	[MsgId: MMSG-226981]
+t=00040815ms: Step 40: Type Partec_Inserime in Nome * TextBox successfully completed with End Event "Action Completed".	[MsgId: MMSG-226981]
+t=00041617ms: Step 42: Click on Button(4) Button started.	[MsgId: MMSG-226981]
+t=00041654ms: Step 42: Click on Button(4) Button successfully completed with End Event "Action Completed".	[MsgId: MMSG-226981]
+t=00042468ms: Step 44: Click on Focusable(7) Focusable started.	[MsgId: MMSG-226981]
+t=00042516ms: Step 44: Click on Focusable(7) Focusable successfully completed with End Event "Action Completed".	[MsgId: MMSG-226981]
+t=00043326ms: Step 45: Click on Trasferimento ListItem started.	[MsgId: MMSG-226981]
+t=00043358ms: Step 45: Click on Trasferimento ListItem successfully completed with End Event "Action Completed".	[MsgId: MMSG-226981]
+t=00044161ms: Step 47: Click on Apri Button started.	[MsgId: MMSG-226981]
+t=00044204ms: Step 47: Click on Apri Button successfully completed with End Event "Action Completed".	[MsgId: MMSG-226981]
+t=00045020ms: Step 49: Select Argentina from Paese * ListBox started.	[MsgId: MMSG-226981]
+t=00045080ms: Step 49: Select Argentina from Paese * ListBox successfully completed with End Event "Action Completed".	[MsgId: MMSG-226981]
+t=00045885ms: Step 51: Click on Apri Button started.	[MsgId: MMSG-226981]
+t=00045938ms: Step 51: Click on Apri Button successfully completed with End Event "Action Completed".	[MsgId: MMSG-226981]
+t=00046743ms: Step 52: GroupStep.Mouseover started.	[MsgId: MMSG-226981]
+t=00046744ms: Step 52.2: Move mouse over Buenos Aires 1363 , AR BA Focusable started.	[MsgId: MMSG-226981]
+t=00046770ms: Step 52.2: Move mouse over Buenos Aires 1363 , AR BA Focusable successfully completed with End Event "Action Completed".	[MsgId: MMSG-226981]
+t=00047586ms: Step 52: GroupStep.Mouseover successfully completed with End Event "Action Completed".	[MsgId: MMSG-226981]
+t=00047586ms: Step 53: Click on Buenos Aires 1363 , AR BA Element started.	[MsgId: MMSG-226981]
+t=00047615ms: Step 53: Click on Buenos Aires 1363 , AR BA Element successfully completed with End Event "Action Completed".	[MsgId: MMSG-226981]
+t=00048419ms: Step 58: Click on Conferma modifiche Button started.	[MsgId: MMSG-226981]
+t=00048820ms: Step 58: Click on Conferma modifiche Button successfully completed with End Event "Step Network Completed".	[MsgId: MMSG-226981]
+t=00049625ms: Action Anagrafica ended.	[MsgId: MMSG-226981]
+t=00049625ms: Action DatiTecnici started.	[MsgId: MMSG-226981]
+t=00049626ms: Step 3: Click on Dati tecnici Link started.	[MsgId: MMSG-226981]
+t=00069771ms: Error -226101: Step 3: Click on Dati tecnici Link failed. Target object was not found.     Snapshot Info [MSH 1 0]	[MsgId: MERR-226101]
+t=00070583ms: Action DatiTecnici ended.	[MsgId: MMSG-226981]
+Ending iteration 1.
+Action was aborted.
+Ending Vuser...
+t=00070589ms: Action End started.	[MsgId: MMSG-226981]
+t=00070589ms: Action End ended.	[MsgId: MMSG-226981]
+Vuser terminated.

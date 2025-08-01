@@ -1,0 +1,8 @@
+#include "lrun.h"
+#include "SharedParameter.h"
+#include "globals.h"
+#include "C-functions.c"
+#include "AggiungiServizio.c"
+#include "DatiTecnici.c"
+#include "GeneraVendita.c"
+#include "RicercaServizio.c"

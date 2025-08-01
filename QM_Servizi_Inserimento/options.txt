@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Vugen\QM_Servizi_Inserimento
+-IC:\Program Files (x86)\OpenText\Virtual User Generator\include
+-ec:\vugen\qm_servizi_inserimento\\logfile.log
+c:\vugen\qm_servizi_inserimento\\combined_QM_Servizi_Inserimento.c
+c:\vugen\qm_servizi_inserimento\\pre_cci.c
